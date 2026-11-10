@@ -7,6 +7,7 @@ import sys
 def greet(name: str = "world") -> str:
     return f"Hello, {name}!"
 
+
 def main() -> None:
     print(greet())
     print(f"Python {platform.python_version()} at {sys.executable}")
